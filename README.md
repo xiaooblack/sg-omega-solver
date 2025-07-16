@@ -1,4 +1,4 @@
-# sg-omega-solver
+# sg-omega-solver V-0.1
 Vertical velocity diagnosis of Omega equation under semi-geostrophic framework
 ## 背景
 1. 基于准地转理论的Omega方程对垂向速度进行诊断已经较为成熟，但准地转框架下诊断出的垂向速度仅含有地转强迫，因此无法准确刻画亚中尺度次级环流。  
@@ -7,3 +7,6 @@ Vertical velocity diagnosis of Omega equation under semi-geostrophic framework
 ## 目标
 1. 在半地转框架中重新加入非地转的局地时间变化项，依照广义Omega方程重新进行Omega方程的推导
 2. 对方程进行离散，利用松弛迭代法进行对垂向速度进行诊断
+## 作者的话
+希望这份文档能对读者有所帮助。  
+更重要的是，原神是世界上最好玩的游戏！！！！
