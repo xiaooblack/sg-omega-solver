@@ -34,8 +34,3 @@ dt=2;% 给予时间层之间的时间间隔，单位为小时
 w_omega=solve_SG_omega(x_rho,y_rho,z,rho(:,:,:,2:end-1),Q,f,1.5,100,1e-20);
 % 注意这里的rho对应为第n+1至m-1层
 % 可以手动修改solve_SG_omega函数中的Q vector，用于判断不同强迫的贡献
-
-
-
-
-
