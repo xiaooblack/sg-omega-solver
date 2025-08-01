@@ -28,8 +28,8 @@ function w=solve_SG_omega(x,y,z,rho,Q,f, omega, max_iter, tolerance)
         [dQ_trxdx,~]=model_gradient(x,y,Q.Q_trx(:,:,:,ii));
         [~,dQ_trydy]=model_gradient(x,y,Q.Q_try(:,:,:,ii));
         % RHS 修改这里以调整不同的强迫
-%         RHS= dQ_trxdx+dQ_trydy + dQ_tgxdx+dQ_tgydy + dQ_tagxdx+dQ_tagydy + dQ_dagxdx+dQ_dagydy + dQ_thxdx+dQ_thydy + dQ_dmxdx+dQ_dmydy;
-        RHS= dQ_tgxdx+dQ_tgydy;
+        RHS= dQ_trxdx+dQ_trydy + dQ_tgxdx+dQ_tgydy + dQ_tagxdx+dQ_tagydy + dQ_dagxdx+dQ_dagydy + dQ_thxdx+dQ_thydy + dQ_dmxdx+dQ_dmydy;
+%        RHS= dQ_tgxdx+dQ_tgydy;
         % N2
         b=-g.*rho(:,:,:,ii)./rho_r;
         N2=model_gradient_z(b,z);
