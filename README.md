@@ -8,5 +8,5 @@ Vertical velocity diagnosis of Omega equation under semi-geostrophic framework
 1. 在半地转框架中加入非地转的局地时间变化项，推导Hoskins形式的半地转Omega方程
 2. 对方程进行离散，利用松弛迭代法进行对垂向速度进行诊断
 ## 作者的话
-目前仅有matlab代码，python的开发可能要随缘。专门用于断面的二维诊断办法正在开发中。
+目前仅有matlab代码，python的开发可能要随缘。专门用于断面的二维诊断办法正在开发中。  
 如果这份文档对你有帮助，请保佑作者原神抽卡不歪，万分感谢！！！！
