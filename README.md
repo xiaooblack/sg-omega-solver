@@ -9,4 +9,4 @@ Vertical velocity diagnosis of Omega equation under semi-geostrophic framework
 2. 对方程进行离散，利用松弛迭代法进行对垂向速度进行诊断
 ## 作者的话
 希望这份文档能对读者有所帮助，目前仅有matlab代码，python的开发可能要随缘。  
-更重要的是，原神是世界上最好玩的游戏！！！！
+如果这份文档对你有帮助，请保佑作者原神抽卡不歪，万分感谢！！！！
